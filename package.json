@@ -1,0 +1,43 @@
+{
+	"name": "partners-page",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "rsbuild dev --open",
+		"build": "rsbuild build",
+		"lint": "eslint \"**/*.{js,mjs,cjs,ts,jsx,tsx}\" --fix",
+		"preview": "rsbuild preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@fontsource-variable/nunito": "^5.2.5",
+		"@mui/icons-material": "^6.4.7",
+		"@mui/material": "^6.4.7",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.22.0",
+		"@rsbuild/core": "^1.2.16",
+		"@rsbuild/plugin-react": "^1.1.1",
+		"@rsbuild/plugin-svgr": "^1.0.7",
+		"@types/node": "^22.13.10",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"eslint": "^9.22.0",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"eslint-plugin-react": "^7.37.4",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.19",
+		"globals": "^16.0.0",
+		"prettier": "^3.5.3",
+		"stylelint": "^16.16.0",
+		"stylelint-config-standard": "^37.0.0",
+		"stylelint-order": "^6.0.4",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.26.1"
+	}
+}
